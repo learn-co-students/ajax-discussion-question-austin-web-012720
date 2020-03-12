@@ -23,6 +23,8 @@ fetch('https://randomuser.me/api/')
 
 console.log("Sup?")
 ```
+Answer:
+>Sup? Hi
 
 ### Question 2
 
@@ -38,6 +40,8 @@ function fetchData(){
 
 fetchData()
 ```
+Answer:
+>console.log will display the json data from the fetch request
 
 What will be console logged when the following code is run? Why?
 
@@ -50,6 +54,8 @@ function fetchData(){
 
 fetchData()
 ```
+Answer:
+>a json formatted response
 
 What will be console logged when the following code is run? Why?
 
@@ -62,14 +68,24 @@ function fetchData(){
 
 fetchData()
 ```
+Answer:
+>Nothing will be console logged because the .then doesn't give it anything to dispay
 
 ### Question 3
 
 In your own words: what does asynchronous mean?
+>Mutliple things happening that are not dependent on the completion of each other in order to run
 
 ### Question 4
 
 Write out the request and response cycle. What is its purpose? How does it work?
+```js
+function goGetThings() {
+  let data = fetch('url')
+    .then (res => res.json())
+    .then (json
+}
+```
 
 ### Question 5
 
